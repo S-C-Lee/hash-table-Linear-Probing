@@ -63,7 +63,7 @@ show(student** hashtable)
 	{
 		if (hashtable[i] != NULL)
 		{
-			printf("Å°:%d ÀÌ¸§:%s\n", i, hashtable[i]->name);
+			printf("key:[%d] man:[%s]\n", i, hashtable[i]->name);
 		}
 	}
 }
